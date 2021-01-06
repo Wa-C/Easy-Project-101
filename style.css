@@ -69,7 +69,7 @@ section{
 
 .half-width img{
 
-    width:70%;
+    width:80%;
     margin-top: 0px;
     height:700px;
     
@@ -156,12 +156,10 @@ section{
      background-size: 60%;
      background-repeat: no-repeat;
 }
-#Fourth-sec-first-div a{
-
-    
+#Fourth-sec-first-div a{  
     float:right;
     margin-top:160px;
-    display:inline-block;
+    
     margin-right: 450px;
     
     
@@ -193,6 +191,105 @@ section{
     background-image: linear-gradient(45deg, Lightsalmon, tomato);
     padding: 30px 60px;
     color: white;
+}
+.button:hover{
+    transform: scale(1.1);
+
+}
+
+#Fifth-section h3{
+        text-align: center;
+        text-shadow:2px 2px #c5a5a5;
+        font-size: 30px;
+
+}
+#Fifth-section h3:hover{
+    transform: scale(2.1);
+    transition: all ease-in-out .45s;
+    background-image:linear-gradient(16deg, rgb(234, 0, 255), cyan,white);
+    
+
+}
+
+.image-rad{
+
+     width:90%;
+     height:300px;
+
+}
+.image-rad2{
+    width:90%;
+}
+.image-rad2 img{
+    width:35%;
+    float:left;
+    margin-left:10%;
+    margin-right:10px;
+    padding-left:0px;
+    padding-right:15px;
+    margin-bottom:50px;
+    border-radius:15px;
+}
+
+.image-rad img{
+    width:35%;
+    float:left;
+    margin-left: 170px;
+    margin-right:0px;
+    padding-left: 15px;
+    padding-right:0px;
+    margin-bottom:120px;
+    border-radius: 8px;
+
 
 
 }
+footer{
+    background-color: aqua;
+    width: 100%;
+    height:200px;
+    margin-top: 500px;
+   
+}
+footer h3 {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(165, 35, 35);
+    font-size:30px;
+}
+footer h2{
+    text-align: center;
+    padding-top: 5px;
+    font-size:40px;
+    font-weight: 700;
+}
+
+.landing{
+   
+    float:left;
+    
+    
+}
+.landing img{
+    width:25%;
+    padding-top:20px;
+    padding-left:0px ;
+    padding-right:0px ;
+   
+}
+#footer-image-one{
+
+    margin-left: 46.5%;
+}
+#footer-image-two{
+
+    margin-left: -70px;
+    
+}
+#footer-image-three{
+
+    margin-right: 10.5%;
+    margin-left: -70px;
+}
+
